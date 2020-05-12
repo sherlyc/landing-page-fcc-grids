@@ -102,25 +102,13 @@ nav {
 }
 
 #pricing {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
   margin-bottom: 40px;
 }
 
 .plan {
   border: 2px solid #202020;
-  width: calc((min(900px, 100%) - 2 * 20px)/3);
   margin-top: 20px;
   font-size: 5rem;
-}
-
-@media (max-width: 800px) {
-  .plan {
-    width: 100%;
-    max-width: 300px;
-    margin: 15px auto;
-  }
 }
 
 .title {
@@ -129,12 +117,6 @@ nav {
   padding: 15px 0;
   text-transform: uppercase;
   background-color: #E8E8E8;
-}
-
-@media (min-width: 801px) {
-  .plan:not(:nth-child(3n + 1)) {
-    margin-left: 20px; 
-  }
 }
 
 .pricing-button {
